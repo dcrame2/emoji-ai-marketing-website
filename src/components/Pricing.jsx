@@ -7,6 +7,7 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logomark } from '@/components/Logo'
+import { Logo } from '@/components/Logo'
 
 const plans = [
   {
@@ -41,7 +42,7 @@ const plans = [
       'Save & copy sets instantly',
       'Ad-free experience',
     ],
-    logomarkClassName: 'fill-cyan-500',
+    logomarkClassName: 'fill-blue-500',
   },
   {
     name: 'Annual Plan',
@@ -58,7 +59,7 @@ const plans = [
       'Save & copy sets instantly',
       'Ad-free experience',
     ],
-    logomarkClassName: 'fill-cyan-500',
+    logomarkClassName: 'fill-blue-500',
   },
 ]
 
@@ -106,7 +107,7 @@ function Plan({
           featured ? 'text-white' : 'text-gray-900',
         )}
       >
-        <Logomark className={clsx('h-6 w-6 flex-none', logomarkClassName)} />
+        <Logo width={20} height={20} />
         <span className="ml-4">{name}</span>
       </h3>
       <p
@@ -165,7 +166,7 @@ function Plan({
               <CheckIcon
                 className={clsx(
                   'h-6 w-6 flex-none',
-                  featured ? 'text-white' : 'text-cyan-500',
+                  featured ? 'text-white' : 'text-blue-500',
                 )}
               />
               <span className="ml-4">{feature}</span>
@@ -175,7 +176,7 @@ function Plan({
       </div>
       <Button
         href={button.href}
-        color={featured ? 'cyan' : 'gray'}
+        color={featured ? 'blue' : 'gray'}
         className="mt-6"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
