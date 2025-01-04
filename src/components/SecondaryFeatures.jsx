@@ -4,39 +4,39 @@ import { Container } from '@/components/Container'
 
 const features = [
   {
-    name: 'Invest any amount',
+    name: 'Instant Emoji Suggestions',
     description:
-      'Whether it’s $1 or $1,000,000, we can put your money to work for you.',
+      'Type any prompt and instantly receive creative emoji sets that perfectly match your input. It’s fast, fun, and effortless.',
     icon: DeviceArrowIcon,
   },
   {
-    name: 'Build a balanced portfolio',
+    name: 'Custom Emoji Sets',
     description:
-      'Invest in different industries to find the most opportunities to win huge.',
+      'Design and personalize your own emoji sets with a simple drag-and-drop feature. Ideal for creative expression or personal collections.',
     icon: DeviceCardsIcon,
   },
   {
-    name: 'Trade in real-time',
+    name: 'Easy Copy & Save',
     description:
-      'Get insider tips on big stock moves and act on them within seconds.',
+      'Copy emojis and save your sets with a single tap, keeping your favorites ready for use anytime.',
     icon: DeviceClockIcon,
   },
   {
-    name: 'Profit from your network',
+    name: 'Drag & Drop Builder',
     description:
-      'Invite new insiders to get tips faster and beat even other Pocket users.',
+      'Easily rearrange and customize your emoji sets with a smooth drag-and-drop builder, making personalization a breeze.',
     icon: DeviceListIcon,
   },
   {
-    name: 'Encrypted and anonymized',
+    name: 'Quick Search & Generation',
     description:
-      'Cutting-edge security technology that even the NSA doesn’t know about keeps you hidden.',
+      'Search for emojis by typing a word or phrase and instantly get results. Perfect for crafting creative messages in seconds.',
     icon: DeviceLockIcon,
   },
   {
-    name: 'Portfolio tracking',
+    name: 'Unlimited Creativity',
     description:
-      'Watch your investments grow exponentially, leaving other investors in the dust.',
+      'Create as many emoji sets as you want with no limits. Stay creative, expressive, and organized all in one place.',
     icon: DeviceChartIcon,
   },
 ]
@@ -190,17 +190,18 @@ export function SecondaryFeatures() {
   return (
     <section
       id="secondary-features"
-      aria-label="Features for building a portfolio"
+      aria-label="Features for building emoji sets"
       className="py-20 sm:py-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-medium tracking-tight text-gray-900">
-            Now is the time to build your portfolio.
+            Take Your Emoji Experience to the Next Level
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            With typical market returns, you have to start young to secure your
-            future. With Pocket, it’s never too late to build your nest egg.
+            Emoji AI offers powerful tools to generate, customize, and save your
+            perfect emoji sets. Express yourself in a whole new way with these
+            creative features.
           </p>
         </div>
         <ul

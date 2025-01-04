@@ -10,59 +10,53 @@ import { Logomark } from '@/components/Logo'
 
 const plans = [
   {
-    name: 'Starter',
-    featured: false,
-    price: { Monthly: '$0', Annually: '$0' },
+    name: 'Free Trial',
+    price: '$0 for 7 days',
     description:
-      'You’re new to investing but want to do it right. Get started for free.',
+      'Try Emoji AI free for one week! Get full access to all features before deciding to subscribe.',
     button: {
-      label: 'Get started for free',
+      label: 'Start Free Trial',
       href: '/register',
     },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'One tip every day',
-      'Invest up to $1,500 each month',
+      'Unlimited emoji generation',
+      'Create custom emoji sets',
+      'Save & copy sets instantly',
+      'Ad-free experience',
     ],
-    logomarkClassName: 'fill-gray-300',
+    logomarkClassName: 'fill-green-500',
   },
   {
-    name: 'Investor',
-    featured: false,
-    price: { Monthly: '$7', Annually: '$70' },
+    name: 'Monthly Plan',
+    price: '$1.99/month',
     description:
-      'You’ve been investing for a while. Invest more and grow your wealth faster.',
+      'Enjoy full access to all features with a low monthly subscription. Cancel anytime.',
     button: {
-      label: 'Subscribe',
+      label: 'Subscribe Monthly',
       href: '/register',
     },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'One tip every hour',
-      'Invest up to $15,000 each month',
-      'Basic transaction anonymization',
+      'Unlimited emoji generation',
+      'Create custom emoji sets',
+      'Save & copy sets instantly',
+      'Ad-free experience',
     ],
-    logomarkClassName: 'fill-gray-500',
+    logomarkClassName: 'fill-cyan-500',
   },
   {
-    name: 'VIP',
-    featured: true,
-    price: { Monthly: '$199', Annually: '$1,990' },
+    name: 'Annual Plan',
+    price: '$9.99/year',
     description:
-      'You’ve got a huge amount of assets but it’s not enough. To the moon.',
+      'Get full access for the entire year at a discounted rate. Best value for emoji lovers!',
     button: {
-      label: 'Subscribe',
+      label: 'Subscribe Annually',
       href: '/register',
     },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'Real-time tip notifications',
-      'No investment limits',
-      'Advanced transaction anonymization',
-      'Automated tax-loss harvesting',
+      'Unlimited emoji generation',
+      'Create custom emoji sets',
+      'Save & copy sets instantly',
+      'Ad-free experience',
     ],
     logomarkClassName: 'fill-cyan-500',
   },
@@ -122,7 +116,7 @@ function Plan({
         )}
       >
         {price.Monthly === price.Annually ? (
-          price.Monthly
+          price
         ) : (
           <>
             <span
@@ -133,7 +127,7 @@ function Plan({
                   'pointer-events-none translate-x-6 select-none opacity-0',
               )}
             >
-              {price.Monthly}
+              {price}
             </span>
             <span
               aria-hidden={activePeriod === 'Monthly'}
@@ -143,7 +137,7 @@ function Plan({
                   'pointer-events-none -translate-x-6 select-none opacity-0',
               )}
             >
-              {price.Annually}
+              {price}
             </span>
           </>
         )}
@@ -212,52 +206,6 @@ export function Pricing() {
             Whether you’re one person trying to get ahead or a big firm trying
             to take over the world, we’ve got a plan for you.
           </p>
-        </div>
-
-        <div className="mt-8 flex justify-center">
-          <div className="relative">
-            <RadioGroup
-              value={activePeriod}
-              onChange={setActivePeriod}
-              className="grid grid-cols-2"
-            >
-              {['Monthly', 'Annually'].map((period) => (
-                <Radio
-                  key={period}
-                  value={period}
-                  className={clsx(
-                    'cursor-pointer border border-gray-300 px-[calc(theme(spacing.3)-1px)] py-[calc(theme(spacing.2)-1px)] text-sm text-gray-700 transition-colors hover:border-gray-400 focus:outline-2 focus:outline-offset-2',
-                    period === 'Monthly'
-                      ? 'rounded-l-lg'
-                      : '-ml-px rounded-r-lg',
-                  )}
-                >
-                  {period}
-                </Radio>
-              ))}
-            </RadioGroup>
-            <div
-              aria-hidden="true"
-              className={clsx(
-                'pointer-events-none absolute inset-0 z-10 grid grid-cols-2 overflow-hidden rounded-lg bg-cyan-500 transition-all duration-300',
-                activePeriod === 'Monthly'
-                  ? '[clip-path:inset(0_50%_0_0)]'
-                  : '[clip-path:inset(0_0_0_calc(50%-1px))]',
-              )}
-            >
-              {['Monthly', 'Annually'].map((period) => (
-                <div
-                  key={period}
-                  className={clsx(
-                    'py-2 text-center text-sm font-semibold text-white',
-                    period === 'Annually' && '-ml-px',
-                  )}
-                >
-                  {period}
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
 
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-20 lg:max-w-none lg:grid-cols-3">

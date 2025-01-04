@@ -3,53 +3,48 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
+      question: 'What is Emoji AI?',
       answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+        'Emoji AI is a fun and creative tool that turns your prompts into emoji sets. You can also build custom sets and save them for future use.',
     },
     {
-      question: 'Isn’t this insider trading?',
+      question: 'Is Emoji AI free to use?',
       answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know.',
+        'You can try Emoji AI free for 7 days with full access to all features. After that, you can subscribe to a monthly or annual plan for continued access.',
     },
     {
-      question: 'But isn’t insider trading illegal?',
+      question: 'How do I create my own emoji sets?',
       answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
-    },
-  ],
-  [
-    {
-      question: 'Do the people giving you tips realize what they are doing?',
-      answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
-    },
-    {
-      question: 'Where is Pocket based?',
-      answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
-    },
-    {
-      question: 'Is there any age limit to trading on Pocket?',
-      answer:
-        'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
+        'You can easily create custom emoji sets using our drag-and-drop interface. Once created, they can be saved and copied for easy sharing.',
     },
   ],
   [
     {
-      question: 'How did you get this on the App Store?',
+      question: 'Can I copy my emojis for use in other apps?',
       answer:
-        'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.',
+        'Yes! Emoji AI lets you copy your generated emoji sets with a single tap, making it easy to paste them anywhere you want.',
     },
     {
-      question: 'How do I explain the money I withdraw from Pocket to the IRS?',
+      question: 'Do I need an account to use Emoji AI?',
       answer:
-        'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.',
+        'Yes, an account is required to save custom sets and access all features. Creating an account is quick and easy.',
     },
     {
-      question: 'How do I become an insider?',
+      question: 'What devices are supported?',
       answer:
-        'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
+        'Emoji AI works on both iOS and Android devices. Download it from your preferred app store and start creating emojis today!',
+    },
+  ],
+  [
+    {
+      question: 'Can I cancel my subscription anytime?',
+      answer:
+        'Yes! You can manage or cancel your subscription anytime directly through the Apple App Store or Google Play Store.',
+    },
+    {
+      question: 'How do I contact support?',
+      answer:
+        'If you have any questions or need help, feel free to contact us at support@emojiAI.com. We’re here to help!',
     },
   ],
 ]
@@ -67,15 +62,15 @@ export function Faqs() {
             id="faqs-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
-            Frequently asked questions
+            Frequently Asked Questions
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            If you have anything else you want to ask,{' '}
+            Still have questions?{' '}
             <a
-              href="mailto:info@example.com"
+              href="mailto:support@emojiAI.com"
               className="text-gray-900 underline"
             >
-              reach out to us
+              Contact our support team
             </a>
             .
           </p>
