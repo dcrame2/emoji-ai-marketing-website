@@ -4,37 +4,37 @@ import { Container } from '@/components/Container'
 
 const features = [
   {
-    name: 'Instant Emoji Suggestions',
+    name: 'Instant Emoji Suggestions ✨',
     description:
       'Type any prompt and instantly receive creative emoji sets that perfectly match your input. It’s fast, fun, and effortless.',
     icon: DeviceArrowIcon,
   },
   {
-    name: 'Custom Emoji Sets',
+    name: 'Custom Emoji Sets 🎨',
     description:
       'Design and personalize your own emoji sets with a simple drag-and-drop feature. Ideal for creative expression or personal collections.',
     icon: DeviceCardsIcon,
   },
   {
-    name: 'Easy Copy & Save',
+    name: 'Easy Copy & Save 📋',
     description:
       'Copy emojis and save your sets with a single tap, keeping your favorites ready for use anytime.',
     icon: DeviceClockIcon,
   },
   {
-    name: 'Drag & Drop Builder',
+    name: 'Drag & Drop Builder 🖱️',
     description:
       'Easily rearrange and customize your emoji sets with a smooth drag-and-drop builder, making personalization a breeze.',
     icon: DeviceListIcon,
   },
   {
-    name: 'Quick Search & Generation',
+    name: 'Quick Search & Generation 🔍',
     description:
       'Search for emojis by typing a word or phrase and instantly get results. Perfect for crafting creative messages in seconds.',
     icon: DeviceLockIcon,
   },
   {
-    name: 'Unlimited Creativity',
+    name: 'Unlimited Creativity 🌈 ',
     description:
       'Create as many emoji sets as you want with no limits. Stay creative, expressive, and organized all in one place.',
     icon: DeviceChartIcon,
