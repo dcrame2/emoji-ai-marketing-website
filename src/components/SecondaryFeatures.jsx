@@ -199,7 +199,7 @@ export function SecondaryFeatures() {
             Take Your Emoji Experience to the Next Level
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            EmojAI offers powerful tools to generate, customize, and save your
+            Emoji AI offers powerful tools to generate, customize, and save your
             perfect emoji sets. Express yourself in a whole new way with these
             creative features.
           </p>

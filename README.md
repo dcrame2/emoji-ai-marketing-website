@@ -1,6 +1,6 @@
-# EmojAI Marketing Website
+# Emoji AI Marketing Website
 
-Showcasing my EmojAI React Native App as a marketing website to generate users to download the app
+Showcasing my Emoji AI React Native App as a marketing website to generate users to download the app
 
 - [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
 - [Next.js](https://nextjs.org/docs) - the official Next.js documentation

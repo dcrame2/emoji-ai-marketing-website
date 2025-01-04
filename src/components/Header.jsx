@@ -62,7 +62,7 @@ export function Header() {
               className="flex items-center gap-2"
             >
               <Logo width={40} height={40} className="h-10 w-auto" />
-              <span>EmojAI</span>
+              <span>Emoji AI</span>
             </Link>
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
