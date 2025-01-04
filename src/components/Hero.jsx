@@ -107,7 +107,7 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              Unleash Your Creativity with Emoji AI! 🚀 ♥️
+              Unleash Your Creativity with EmojAI! 🚀 ♥️
             </h1>
             <p className="mt-6 text-lg text-gray-600">
               Turn your words into fun emojis! Generate, copy, and save unique

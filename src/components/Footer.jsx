@@ -29,7 +29,7 @@ export function Footer() {
             <div className="flex items-center text-gray-900">
               <Logo width={40} height={40} />
               <div className="ml-4">
-                <p className="text-base font-semibold">Emoji AI</p>
+                <p className="text-base font-semibold">EmojAI</p>
                 <p className="mt-1 text-sm">Unleash Your Creativity</p>
               </div>
             </div>

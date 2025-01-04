@@ -403,12 +403,12 @@ export function PrimaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h2 className="text-3xl font-medium tracking-tight text-white">
-            Explore Emoji AI's Top Features
+            Explore EmojAI's Top Features
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            Emoji AI was built for creative minds who want to express themselves
+            EmojAI was built for creative minds who want to express themselves
             with style. Whether you're crafting the perfect message, designing
-            unique emoji sets, or just having fun, Emoji AI makes it effortless.
+            unique emoji sets, or just having fun, EmojAI makes it effortless.
           </p>
         </div>
       </Container>

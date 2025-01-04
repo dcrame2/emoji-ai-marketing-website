@@ -14,7 +14,7 @@ const plans = [
     name: 'Free Trial',
     price: '$0 for 7 days',
     description:
-      'Try Emoji AI free for one week! Get full access to all features before deciding to subscribe.',
+      'Try EmojAI free for one week! Get full access to all features before deciding to subscribe.',
     button: {
       label: 'Start Free Trial',
       href: '/register',

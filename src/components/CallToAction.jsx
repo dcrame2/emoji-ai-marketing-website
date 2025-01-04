@@ -17,7 +17,7 @@ export function CallToAction() {
             Create Emoji Sets Today!
           </h2>
           <p className="mt-4 text-lg text-gray-300">
-            It takes just seconds to get started. Download Emoji AI now to
+            It takes just seconds to get started. Download EmojAI now to
             generate custom emojis, build your own sets, and save them for
             future use — all in one app.
           </p>

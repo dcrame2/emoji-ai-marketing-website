@@ -3,14 +3,14 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'What is Emoji AI?',
+      question: 'What is EmojAI?',
       answer:
-        'Emoji AI is a fun and creative tool that turns your prompts into emoji sets. You can also build custom sets and save them for future use.',
+        'EmojAI is a fun and creative tool that turns your prompts into emoji sets. You can also build custom sets and save them for future use.',
     },
     {
-      question: 'Is Emoji AI free to use?',
+      question: 'Is EmojAI free to use?',
       answer:
-        'You can try Emoji AI free for 7 days with full access to all features. After that, you can subscribe to a monthly or annual plan for continued access.',
+        'You can try EmojAI free for 7 days with full access to all features. After that, you can subscribe to a monthly or annual plan for continued access.',
     },
     {
       question: 'How do I create my own emoji sets?',
@@ -22,17 +22,17 @@ const faqs = [
     {
       question: 'Can I copy my emojis for use in other apps?',
       answer:
-        'Yes! Emoji AI lets you copy your generated emoji sets with a single tap, making it easy to paste them anywhere you want.',
+        'Yes! EmojAI lets you copy your generated emoji sets with a single tap, making it easy to paste them anywhere you want.',
     },
     {
-      question: 'Do I need an account to use Emoji AI?',
+      question: 'Do I need an account to use EmojAI?',
       answer:
         'Yes, an account is required to save custom sets and access all features. Creating an account is quick and easy.',
     },
     {
       question: 'What devices are supported?',
       answer:
-        'Emoji AI works on both iOS and Android devices. Download it from your preferred app store and start creating emojis today!',
+        'EmojAI works on both iOS and Android devices. Download it from your preferred app store and start creating emojis today!',
     },
   ],
   [
