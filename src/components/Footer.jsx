@@ -35,6 +35,12 @@ export function Footer() {
             </div>
             <nav className="mt-11 flex gap-8">
               <NavLinks />
+              <Link
+                href="/privacy"
+                className="relative -mx-3 -my-2 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
+              >
+                Privacy Policy
+              </Link>
             </nav>
           </div>
           <div className="group relative -mx-4 flex items-center self-stretch p-4 transition-colors hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
@@ -70,6 +76,7 @@ export function Footer() {
               <span className="lg:hidden">Join newsletter</span>
             </Button>
           </form>
+
           <p className="mt-6 text-sm text-gray-500 md:mt-0">
             &copy; Copyright {new Date().getFullYear()}. All rights reserved.
           </p>
