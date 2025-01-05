@@ -44,7 +44,7 @@ const faqs = [
     {
       question: 'How do I contact support?',
       answer:
-        'If you have any questions or need help, feel free to contact us at support@emojiAI.com. We’re here to help!',
+        'If you have any questions or need help, feel free to contact us at support@emoji-ai.app. We’re here to help!',
     },
   ],
 ]
@@ -67,7 +67,7 @@ export function Faqs() {
           <p className="mt-2 text-lg text-gray-600">
             Still have questions?{' '}
             <a
-              href="mailto:support@emojiAI.com"
+              href="mailto:support@emoji-ai.app"
               className="text-gray-900 underline"
             >
               Contact our support team
