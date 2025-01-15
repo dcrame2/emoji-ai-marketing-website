@@ -13,6 +13,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
+import { AppStoreLink } from './AppStoreLink'
 
 function MenuIcon(props) {
   return (
@@ -135,9 +136,7 @@ export function Header() {
             {/* <Button href="/login" variant="outline" className="hidden lg:block">
               Log in
             </Button> */}
-            <Button href="#" className="hidden lg:block">
-              Download
-            </Button>
+            <AppStoreLink />
           </div>
         </Container>
       </nav>
