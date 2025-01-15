@@ -124,7 +124,9 @@ export function Header() {
                             {/* <Button href="/login" variant="outline">
                               Log in
                             </Button> */}
-                            <Button href="#">Download the app</Button>
+                            <Button href="https://apps.apple.com/us/app/emoji-ai/id6739356870">
+                              Download the app
+                            </Button>
                           </div>
                         </PopoverPanel>
                       </>
